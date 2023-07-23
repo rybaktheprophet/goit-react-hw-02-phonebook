@@ -57,7 +57,7 @@ export class App extends Component {
 
   render() {
     return (
-      <div className={css.conteiner}>
+      <div className={css.container}>
         <h1>Phonebook</h1>
         <ContactForm addContact={this.addContact} />
         <h2>Contacts</h2>
